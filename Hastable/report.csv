@@ -1,0 +1,96 @@
+Seperate Chaining
+ ,Before deletion,After deletion
+Load factor,Avg search time,Avg search time
+0.4,164.56,164.565
+0.5,125.046,187.495
+0.6,156.277,182.183
+0.7,133.949,178.476
+0.8,156.259,214.8
+0.9,159.235,190.971
+
+
+Linear Probing
+ ,Before deletion, ,After deletion
+Load factor,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+0.4,169.548,1.02185,157.572,1.12679
+0.5,156.216,1.02755,156.207,1.172
+0.6,156.207,1.03397,182.31,1.22511
+0.7,156.164,1.03796,178.581,1.29262
+0.8,156.218,1.04681,177.394,1.3699
+0.9,150.777,1.0521,207.625,1.46929
+
+
+Quadratic Probing
+ ,Before deletion, ,After deletion
+Load factor,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+0.4,164.56,1.02181,143.242,1.12283
+0.5,156.214,1.02744,156.87,1.16314
+0.6,156.214,1.03382,156.207,1.21038
+0.7,156.21,1.03773,183.985,1.26266
+0.8,162.596,1.04665,212.739,1.32288
+0.9,156.209,1.05182,172.961,1.39217
+
+
+Double Hashing
+ ,Before deletion, ,After deletion
+Load factor,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+0.4,184.506,1.02146,156.263,1.11503
+0.5,187.461,1.02707,187.468,1.15175
+0.6,208.293,1.0332,208.693,1.19199
+0.7,178.53,1.03708,222.83,1.23878
+0.8,210.751,1.04562,197.679,1.29079
+0.9,190.938,1.05052,225.652,1.35214
+
+
+Load Factor = 0.4
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,164.56,N/A,164.565,N/A
+Linear Probing,169.548,1.02185,157.572,1.12679
+Quadratic Probing,164.56,1.02181,143.242,1.12283
+Double Hashing,184.506,1.02146,156.263,1.11503
+
+
+Load Factor = 0.5
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,125.046,N/A,187.495,N/A
+Linear Probing,156.216,1.02755,156.207,1.172
+Quadratic Probing,156.214,1.02744,156.87,1.16314
+Double Hashing,187.461,1.02707,187.468,1.15175
+
+
+Load Factor = 0.6
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,156.277,N/A,182.183,N/A
+Linear Probing,156.207,1.03397,182.31,1.22511
+Quadratic Probing,156.214,1.03382,156.207,1.21038
+Double Hashing,208.293,1.0332,208.693,1.19199
+
+
+Load Factor = 0.7
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,133.949,N/A,178.476,N/A
+Linear Probing,156.164,1.03796,178.581,1.29262
+Quadratic Probing,156.21,1.03773,183.985,1.26266
+Double Hashing,178.53,1.03708,222.83,1.23878
+
+
+Load Factor = 0.8
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,156.259,N/A,214.8,N/A
+Linear Probing,156.218,1.04681,177.394,1.3699
+Quadratic Probing,162.596,1.04665,212.739,1.32288
+Double Hashing,210.751,1.04562,197.679,1.29079
+
+
+Load Factor = 0.9
+,Before Deletion, ,After Deletion,
+Method,Avg search time,Avg number of probes,Avg search time,Avg number of probes
+Seperate Chaining,159.235,N/A,190.971,N/A
+Linear Probing,150.777,1.0521,207.625,1.46929
+Quadratic Probing,156.209,1.05182,172.961,1.39217
+Double Hashing,190.938,1.05052,225.652,1.35214
